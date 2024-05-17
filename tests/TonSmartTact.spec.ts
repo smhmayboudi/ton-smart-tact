@@ -23,7 +23,7 @@ describe('TonSmartTact', () => {
             {
                 $$type: 'Deploy',
                 queryId: 0n,
-            }
+            },
         );
 
         expect(deployResult.transactions).toHaveTransaction({
@@ -63,7 +63,7 @@ describe('TonSmartTact', () => {
                     $$type: 'Add',
                     queryId: 0n,
                     amount: increaseBy,
-                }
+                },
             );
 
             expect(increaseResult.transactions).toHaveTransaction({
